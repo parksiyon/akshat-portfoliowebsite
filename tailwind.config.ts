@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'orbitron': ['Orbitron', 'monospace'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Portfolio specific colors
+				'dark-blue': 'hsl(var(--dark-blue))',
+				'neon-blue': 'hsl(var(--neon-glow))',
+				'light-surface': 'hsl(var(--light-surface))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
